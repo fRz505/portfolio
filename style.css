@@ -31,7 +31,7 @@ body {
 
 .info-container {
     position: absolute;
-    color: #063674;
+    color: #274e7e;
     z-index: 1;
     top: 30%;
     font-weight: bold;
@@ -129,4 +129,13 @@ body {
     justify-content: space-around;
     
    
+}
+
+.menu{
+  text-decoration: none;
+  color: #274e7e;
+}
+
+.menu:hover{
+  color: rgb(164, 129, 197);
 }
