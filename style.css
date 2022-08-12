@@ -60,7 +60,7 @@ body {
   justify-content: space-around;
   background-color: white;
   width: 100%;
-  color: #063674;
+  color: #0a121b;
 }
 .titulo1{
     color: #3780e0;
@@ -139,3 +139,26 @@ body {
 .menu:hover{
   color: rgb(164, 129, 197);
 }
+
+.bodyproject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.card {
+  border-top: 5px solid #274e7e;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.3s;
+  width: 20%;
+}
+.bodyproject a {
+  color: #050505;
+  text-decoration: none;
+}
+
